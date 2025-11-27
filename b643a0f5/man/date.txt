@@ -1,0 +1,12 @@
+NAME
+       date - print or set the system date and time
+
+SYNOPSIS
+       {keyword}date{/keyword} [-f FORMAT]
+
+DESCRIPTION
+       Print the system date and time.
+
+OPTIONS
+       -f, --format
+              Format the date and time using a JSON string for toLocaleString options (e.g., '{"weekday":"short","year":"numeric","month":"short","day":"numeric","hour":"numeric","minute":"numeric","second":"numeric"}')

@@ -1,0 +1,75 @@
+NAME
+       less - view file contents or standard input in an interactive pager
+
+SYNOPSIS
+       {keyword}less{/keyword} [FILE]...
+
+DESCRIPTION
+       View file contents or standard input in an interactive pager.
+       If no FILE is specified, or when FILE is -, read from standard input.
+
+       The pager adapts to the terminal height and provides standard navigation,
+       search functionality, and status information similar to the Unix less command.
+
+NAVIGATION COMMANDS
+       {highlight}Line Movement:{/highlight}
+       {keyword}j{/keyword}, {keyword}↓{/keyword}, {keyword}Ctrl+N{/keyword}    Scroll down one line
+       {keyword}k{/keyword}, {keyword}↑{/keyword}, {keyword}Ctrl+P{/keyword}    Scroll up one line
+
+       {highlight}Page Movement:{/highlight}
+       {keyword}SPACE{/keyword}, {keyword}f{/keyword}, {keyword}Ctrl+F{/keyword}, {keyword}PgDn{/keyword}  Scroll forward one page
+       {keyword}b{/keyword}, {keyword}Ctrl+B{/keyword}, {keyword}PgUp{/keyword}           Scroll backward one page
+
+       {highlight}Half-Page Movement:{/highlight}
+       {keyword}d{/keyword}, {keyword}Ctrl+D{/keyword}                   Scroll forward half page
+       {keyword}u{/keyword}, {keyword}Ctrl+U{/keyword}                   Scroll backward half page
+
+       {highlight}Jump Commands:{/highlight}
+       {keyword}g{/keyword}, {keyword}<{/keyword}, {keyword}Home{/keyword}                 Jump to beginning of file
+       {keyword}G{/keyword}, {keyword}>{/keyword}, {keyword}End{/keyword}                  Jump to end of file
+
+SEARCH COMMANDS
+       {keyword}/{/keyword}pattern    Search forward for pattern (case-insensitive regex)
+       {keyword}n{/keyword}           Jump to next search result
+       {keyword}N{/keyword}           Jump to previous search result
+       {keyword}ESC{/keyword}         Cancel search input
+
+       Search patterns support regular expressions and wrap around when
+       reaching the end of the file.
+
+STATUS LINE
+       The status line at the bottom shows:
+       - Current position as percentage of file
+       - Line range being displayed
+       - Total number of lines
+       - {keyword}(END){/keyword} when at the end of file
+       - {keyword}Pattern:{/keyword} during search input
+
+LINK NAVIGATION
+       When viewing documents with hyperlinks (such as man pages with
+       cross-references), you can navigate and activate them:
+
+       {keyword}Tab{/keyword}          Navigate to next visible link
+       {keyword}Shift+Tab{/keyword}    Navigate to previous visible link
+       {keyword}Enter{/keyword}        Activate the selected link
+
+       The status line shows available links and the currently selected one.
+       When a {keyword}man:{/keyword} link is activated, the referenced manual page opens.
+       Link selection resets when scrolling.
+
+OTHER COMMANDS
+       {keyword}q{/keyword}, {keyword}Q{/keyword}       Quit the pager
+       {keyword}h{/keyword}, {keyword}H{/keyword}, {keyword}?{/keyword}   Show help (not yet implemented)
+
+EXAMPLES
+       View a file:
+              {keyword}less{/keyword} /etc/hosts
+
+       View command output:
+              {keyword}cat{/keyword} file.txt {keyword}| less{/keyword}
+
+       View man page:
+              {keyword}man{/keyword} ls
+
+SEE ALSO
+      {link:man:man}man{/link}, {link:man:cat}cat{/link}

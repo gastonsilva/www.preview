@@ -1,0 +1,9 @@
+NAME
+       printenv - print environment variables
+
+SYNOPSIS
+       {keyword}printenv{/keyword} [VARIABLE]...
+
+DESCRIPTION
+       Print the values of the specified environment VARIABLE(s), or all
+       environment variables if none are specified.

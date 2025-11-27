@@ -1,0 +1,15 @@
+NAME
+       mkdir - make directories
+
+SYNOPSIS
+       {keyword}mkdir{/keyword} [-p] DIRECTORY...
+
+DESCRIPTION
+       Create the DIRECTORY(ies), if they do not already exist.
+
+OPTIONS
+       -p, --parents
+              no error if existing, make parent directories as needed
+
+SEE ALSO
+       {link:man:rmdir}rmdir{/link}

@@ -1,0 +1,10 @@
+NAME
+       id - print user and group information
+
+SYNOPSIS
+       {keyword}id{/keyword}
+
+DESCRIPTION
+       Print user and group information for the current user.
+
+       In this simulated environment, the user is 'guest' with uid 1000 and gid 1000.

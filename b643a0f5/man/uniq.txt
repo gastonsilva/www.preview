@@ -1,0 +1,10 @@
+NAME
+       uniq - report or omit repeated lines
+
+SYNOPSIS
+       {keyword}uniq{/keyword} [FILE]
+
+DESCRIPTION
+       Report or omit repeated lines. Compares adjacent lines and writes a single copy
+       of each unique line to standard output. If FILE is not specified, reads from
+       standard input.

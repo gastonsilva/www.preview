@@ -1,0 +1,16 @@
+NAME
+       test - evaluate conditional expressions
+
+SYNOPSIS
+       {keyword}test{/keyword} EXPRESSION
+
+DESCRIPTION
+       Evaluate conditional EXPRESSION.  Returns an exit status of 0 for true
+       and 1 for false.
+
+EXPRESSIONS
+       -e FILE        True if FILE exists.
+       -f FILE        True if FILE exists and is a regular file.
+       -d FILE        True if FILE exists and is a directory.
+       STRING1 = STRING2  True if the strings are equal.
+       STRING1 != STRING2 True if the strings are not equal.

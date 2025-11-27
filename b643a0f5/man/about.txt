@@ -1,0 +1,5 @@
+Displays information about this terminal emulator.
+
+Usage: {keyword}about{/keyword}
+
+No arguments are required.

@@ -1,0 +1,6 @@
+Displays a list of available commands with their descriptions.
+
+Usage: {keyword}help{/keyword} [command]
+
+Arguments:
+  [command]  Optional. The name of the command to show help for.

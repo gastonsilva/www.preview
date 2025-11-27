@@ -1,0 +1,11 @@
+NAME
+       pwd - print name of current/working directory
+
+SYNOPSIS
+       {keyword}pwd{/keyword}
+
+DESCRIPTION
+       Print the full filename of the current working directory.
+
+SEE ALSO
+       {link:man:cd}cd{/link}, {link:man:ls}ls{/link}

@@ -1,0 +1,9 @@
+NAME
+       sort - sort lines of text files
+
+SYNOPSIS
+       {keyword}sort{/keyword} [FILE]...
+
+DESCRIPTION
+       Sort lines of text files. This implementation performs a basic alphabetical sort.
+       If no FILE is specified, or when FILE is -, read from standard input.

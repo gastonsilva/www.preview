@@ -1,0 +1,21 @@
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       {keyword}ls{/keyword} [OPTION]... [FILE]...
+
+DESCRIPTION
+       List information about the FILEs (the current directory by default).
+       Sort entries alphabetically.
+
+OPTIONS
+       -a, --all
+              do not ignore entries starting with .
+
+       -d     list directory entries instead of contents, and do not dereference
+              symbolic links
+
+       -l     use a long listing format
+
+SEE ALSO
+       {link:man:cd}cd{/link}, {link:man:pwd}pwd{/link}

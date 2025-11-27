@@ -1,0 +1,17 @@
+NAME
+       rm - remove files or directories
+
+SYNOPSIS
+       {keyword}rm{/keyword} [OPTION]... FILE...
+
+DESCRIPTION
+       {keyword}rm{/keyword} removes each specified file. By default, it does not remove
+       directories.
+
+OPTIONS
+       -r, -R, --recursive
+              remove directories and their contents recursively. Without this option,
+              non-empty directories cannot be removed.
+
+SEE ALSO
+       {link:man:mkdir}mkdir{/link}

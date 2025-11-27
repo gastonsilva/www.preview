@@ -1,0 +1,8 @@
+NAME
+       whoami - print effective user ID
+
+SYNOPSIS
+       {keyword}whoami{/keyword}
+
+DESCRIPTION
+       Print the effective user ID.

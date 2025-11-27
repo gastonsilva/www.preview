@@ -1,0 +1,12 @@
+NAME
+       basename - strip directory and suffix from filenames
+
+SYNOPSIS
+       {keyword}basename{/keyword} NAME [SUFFIX]
+
+DESCRIPTION
+       Print NAME with any leading directory components removed.
+       If specified, also remove a trailing SUFFIX.
+
+SEE ALSO
+       {link:man:dirname}dirname{/link}

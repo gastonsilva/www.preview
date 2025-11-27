@@ -1,0 +1,11 @@
+NAME
+       grep - print lines matching a pattern
+
+SYNOPSIS
+       {keyword}grep{/keyword} [-v] PATTERN [FILE]...
+
+DESCRIPTION
+       Search for PATTERN in each FILE or standard input.
+
+OPTIONS
+       -v     Invert the sense of matching, to select non-matching lines.

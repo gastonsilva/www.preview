@@ -1,0 +1,17 @@
+NAME
+       mv - move (rename) files
+
+SYNOPSIS
+       {keyword}mv{/keyword} SOURCE... DIRECTORY
+       {keyword}mv{/keyword} SOURCE DEST
+
+DESCRIPTION
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+ARGUMENTS
+       SOURCE...      One or more files or directories to move.
+       DIRECTORY      The target directory if multiple sources, or the new name/path if a single source.
+       DEST           The new name/path for SOURCE if only one SOURCE is provided.
+
+SEE ALSO
+       {link:man:cp}cp{/link}

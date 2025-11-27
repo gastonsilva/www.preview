@@ -1,0 +1,6 @@
+Displays the command history line by line with line numbers.
+
+Usage: {keyword}history{/keyword} [options]
+
+Options:
+  -c, --clear    Clear the command history.

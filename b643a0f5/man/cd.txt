@@ -1,0 +1,12 @@
+NAME
+       cd - change the shell working directory
+
+SYNOPSIS
+       {keyword}cd{/keyword} [dir]
+
+DESCRIPTION
+       Change the current directory to DIR. The default DIR is the value of the
+       HOME shell variable.
+
+SEE ALSO
+       {link:man:ls}ls{/link}, {link:man:pwd}pwd{/link}

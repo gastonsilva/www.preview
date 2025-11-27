@@ -1,0 +1,11 @@
+NAME
+       tail - output the last part of files
+
+SYNOPSIS
+       {keyword}tail{/keyword} [-n NUM] [FILE]...
+
+DESCRIPTION
+       Output the last part of files. By default, prints the last 10 lines.
+
+OPTIONS
+       -n NUM Output the last NUM lines instead of the default 10.

@@ -1,0 +1,11 @@
+NAME
+       head - output the first part of files
+
+SYNOPSIS
+       {keyword}head{/keyword} [-n NUM] [FILE]...
+
+DESCRIPTION
+       Output the first part of files. By default, prints the first 10 lines.
+
+OPTIONS
+       -n NUM Output the first NUM lines instead of the default 10.

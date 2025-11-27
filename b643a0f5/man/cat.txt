@@ -1,0 +1,11 @@
+NAME
+       cat - concatenate files and print on the standard output
+
+SYNOPSIS
+       {keyword}cat{/keyword} [FILE]...
+
+DESCRIPTION
+       Concatenate FILE(s) to standard output. If no FILE is specified, or when FILE is -, read from standard input.
+
+SEE ALSO
+       {link:man:ls}ls{/link}

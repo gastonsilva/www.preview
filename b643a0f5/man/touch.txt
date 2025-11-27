@@ -1,0 +1,12 @@
+NAME
+       touch - change file timestamps
+
+SYNOPSIS
+       {keyword}touch{/keyword} [FILE]...
+
+DESCRIPTION
+       Update the access and modification times of each FILE to the current time.
+       A FILE argument that does not exist is created empty.
+
+SEE ALSO
+       {link:man:stat}stat{/link}

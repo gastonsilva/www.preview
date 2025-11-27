@@ -1,0 +1,5 @@
+Clears the terminal screen.
+
+Usage: {keyword}clear{/keyword}
+
+No arguments are required.

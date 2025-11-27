@@ -1,0 +1,14 @@
+NAME
+       cp - copy files and directories
+
+SYNOPSIS
+       {keyword}cp{/keyword} [-R] SOURCE... DEST
+
+DESCRIPTION
+       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+OPTIONS
+       -R      Copy directories recursively.
+
+SEE ALSO
+       {link:man:mv}mv{/link}

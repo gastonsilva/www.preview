@@ -1,0 +1,3 @@
+{highlight}Welcome to Gaston Silva's Interactive Terminal{/highlight}
+
+Type {keyword}help{/keyword} to see available commands.

@@ -1,0 +1,11 @@
+NAME
+       echo - write arguments to the standard output
+
+SYNOPSIS
+       {keyword}echo{/keyword} [-n] [STRING]...
+
+DESCRIPTION
+       Write arguments to the standard output.
+
+OPTIONS
+       -n     do not output the trailing newline

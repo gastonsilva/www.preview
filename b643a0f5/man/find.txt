@@ -1,0 +1,16 @@
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       {keyword}find{/keyword} [PATH] [EXPRESSION]
+
+DESCRIPTION
+       Search for files in a directory hierarchy.
+
+OPTIONS
+       -name PATTERN
+              Base of file name (shell pattern)
+
+EXAMPLES
+       find . -name "*.txt"
+       find /home/guest -name "document.pdf"

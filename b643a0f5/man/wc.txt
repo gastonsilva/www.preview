@@ -1,0 +1,12 @@
+NAME
+       wc - print newline, word, and byte counts for files
+
+SYNOPSIS
+       {keyword}wc{/keyword} [FILE]...
+
+DESCRIPTION
+       Print newline, word, and byte counts for each FILE, or from standard
+       input if no FILE is specified.
+
+OUTPUT FORMAT
+       LINES WORDS BYTES [FILE]

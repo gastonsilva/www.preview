@@ -1,0 +1,15 @@
+NAME
+       man - an interface to the system reference manuals
+
+SYNOPSIS
+       {keyword}man{/keyword} [COMMAND]
+
+DESCRIPTION
+       Display the manual page for a command.
+
+       The manual pages are pre-formatted text files. When viewing a manual page, an
+       internal pager (similar to 'less') will be used.
+       Press 'q' to quit the pager.
+
+SEE ALSO
+       {link:man:help}help{/link}, {link:man:less}less{/link}

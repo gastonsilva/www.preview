@@ -1,0 +1,20 @@
+NAME
+       dirname - strip last component from file name
+
+SYNOPSIS
+       {keyword}dirname{/keyword} NAME...
+
+DESCRIPTION
+       Output each NAME with its last non-slash component and trailing slashes
+       removed; if NAME contains no /'s, output '.' (meaning the current directory).
+
+EXAMPLES
+       dirname /usr/bin            -> /usr
+       dirname dir/subdir/file.txt -> dir/subdir
+       dirname /                 -> /
+       dirname file.txt          -> .
+       dirname //usr             -> //
+       dirname /usr/             -> /
+
+SEE ALSO
+       {link:man:basename}basename{/link}
